@@ -34,6 +34,8 @@ import time
 import zlib
 import string
 
+import pyftdi.serialext
+
 try:
     import serial
 except ImportError:
